@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeeksForGeeks</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <!-- for header part -->
+    <header>
+      <div class="logosec">
+        <div class="logo">
+          <img src="assets/logo.png" alt="logo" />
+        </div>
+      </div>
+
+      <div class="message">
+        <div class="profile">
+          <span class="username">User Name (Profile)</span>
+          <span class="useremail">user@gmail.com</span>
+        </div>
+        <div class="dp">
+          <img src="assets/profile.png" class="dpicn" alt="dp" />
+        </div>
+      </div>
+    </header>
+    <div class="main-container">
+      <div class="navcontainer">
+        <nav class="nav">
+          <div class="nav-upper-options">
+            <div class="nav-upper-options-1">
+              <div class="nav-option option1">
+                <img
+                  src="assets/dashboard.svg"
+                  class="nav-img"
+                  alt="dashboard"
+                />
+                <span>Dashboard</span>
+              </div>
+              <div class="option2 nav-option">
+                <img src="assets/patients.svg" class="nav-img" alt="articles" />
+                <span>Patients</span>
+              </div>
+              <div class="nav-option option3">
+                <img
+                  src="assets/add appointment.svg"
+                  class="nav-img"
+                  alt="report"
+                />
+                <span>Calendar</span>
+              </div>
+              <div class="nav-option option4">
+                <img
+                  src="assets/account.svg"
+                  class="nav-img"
+                  alt="institution"
+                />
+                <span>Account</span>
+              </div>
+            </div>
+
+            <div class="nav-option logout">
+              <img src="assets/logout.svg" class="nav-img" alt="logout" />
+              <span>Logout</span>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="first-child">
+          <div class="upcoming-appointments container">
+            <span class="title">Upcoming Appointments</span>
+            <div class="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Date & Time</th>
+                    <th>Patient Name</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>9/15/22 @ 2PM</td>
+                    <td>John Doe</td>
+                    <td>
+                      <div class="actions">
+                        <div class="start-evaluation">Start Evaluation</div>
+                        <div class="icon">
+                          <img
+                            class="img-calendar1"
+                            src="assets/calendar1.svg"
+                            alt="calendar1"
+                          />
+                        </div>
+                        <div class="icon">
+                          <img class="img-exit" src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>9/15/22 @ 3PM</td>
+                    <td>James Cooper</td>
+                    <td>
+                      <div class="actions">
+                        <div class="start-evaluation">Start Evaluation</div>
+                        <div class="icon">
+                          <img
+                            class="img-calendar1"
+                            src="assets/calendar1.svg"
+                            alt="calendar1"
+                          />
+                        </div>
+                        <div class="icon">
+                          <img class="img-exit" src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>9/15/22 @ 4PM</td>
+                    <td>Erika Jhons</td>
+                    <td>
+                      <div class="actions">
+                        <div class="start-evaluation">Start Evaluation</div>
+                        <div class="icon">
+                          <img
+                            class="img-calendar1"
+                            src="assets/calendar1.svg"
+                            alt="calendar1"
+                          />
+                        </div>
+                        <div class="icon">
+                          <img class="img-exit" src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- Add more rows as needed -->
+                </tbody>
+              </table>
+            </div>
+            <div class="view-more">
+              <span class="view-more-text">View More ></span>
+            </div>
+          </div>
+          <div class="appointments-requests2 container">
+            <span class="title">Upcoming Appointments</span>
+            <div class="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Patient Name</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="profile">
+                        <span class="name">Rick Moore</span>
+                        <span class="date">9/15/22 @ 2PM</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="actions requests">
+                        <div class="icon approve">
+                          <img src="assets/Approve.svg" alt="approve" />
+                        </div>
+                        <div class="icon">
+                          <img src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="profile">
+                        <span class="name">Anna Roberts</span>
+                        <span class="date">9/15/22 @ 2PM</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="actions requests">
+                        <div class="icon approve">
+                          <img src="assets/Approve.svg" alt="approve" />
+                        </div>
+                        <div class="icon">
+                          <img src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="profile">
+                        <span class="name">Phill Dunphy</span>
+                        <span class="date">9/15/22 @ 2PM</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="actions requests">
+                        <div class="icon approve">
+                          <img src="assets/Approve.svg" alt="approve" />
+                        </div>
+                        <div class="icon">
+                          <img src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="profile">
+                        <span class="name">Anna Lowes</span>
+                        <span class="date">9/15/22 @ 2PM</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="actions requests">
+                        <div class="icon approve">
+                          <img src="assets/Approve.svg" alt="approve" />
+                        </div>
+                        <div class="icon">
+                          <img src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="profile">
+                        <span class="name">Nick Thomson</span>
+                        <span class="date">9/15/22 @ 2PM</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="actions requests">
+                        <div class="icon approve">
+                          <img src="assets/Approve.svg" alt="approve" />
+                        </div>
+                        <div class="icon">
+                          <img src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="profile">
+                        <span class="name">Phill Dunphy</span>
+                        <span class="date">9/15/22 @ 2PM</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="actions requests">
+                        <div class="icon approve">
+                          <img src="assets/Approve.svg" alt="approve" />
+                        </div>
+                        <div class="icon">
+                          <img src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="profile">
+                        <span class="name">Eric Shaw</span>
+                        <span class="date">9/15/22 @ 2PM</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="actions requests">
+                        <div class="icon approve">
+                          <img src="assets/Approve.svg" alt="approve" />
+                        </div>
+                        <div class="icon">
+                          <img src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="calendars">
+            <img
+              class="calendar-days"
+              src="assets/Calendar Day.png"
+              alt="Calendar Day"
+              class="calendar_day"
+            />
+            <img
+              class="calendar-month"
+              src="assets/Calendar Month.png"
+              alt="Calendar Month"
+              class="calendar_month"
+            />
+          </div>
+        </div>
+        <div class="last-child">
+          <div class="appointments-requests container">
+            <span class="title">Upcoming Appointments</span>
+            <div class="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Patient Name</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="profile">
+                        <span class="name">Rick Moore</span>
+                        <span class="date">9/15/22 @ 2PM</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="actions requests">
+                        <div class="icon approve">
+                          <img src="assets/Approve.svg" alt="approve" />
+                        </div>
+                        <div class="icon">
+                          <img src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="profile">
+                        <span class="name">Anna Roberts</span>
+                        <span class="date">9/15/22 @ 2PM</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="actions requests">
+                        <div class="icon approve">
+                          <img src="assets/Approve.svg" alt="approve" />
+                        </div>
+                        <div class="icon">
+                          <img src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="profile">
+                        <span class="name">Phill Dunphy</span>
+                        <span class="date">9/15/22 @ 2PM</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="actions requests">
+                        <div class="icon approve">
+                          <img src="assets/Approve.svg" alt="approve" />
+                        </div>
+                        <div class="icon">
+                          <img src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="profile">
+                        <span class="name">Anna Lowes</span>
+                        <span class="date">9/15/22 @ 2PM</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="actions requests">
+                        <div class="icon approve">
+                          <img src="assets/Approve.svg" alt="approve" />
+                        </div>
+                        <div class="icon">
+                          <img src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="profile">
+                        <span class="name">Nick Thomson</span>
+                        <span class="date">9/15/22 @ 2PM</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="actions requests">
+                        <div class="icon approve">
+                          <img src="assets/Approve.svg" alt="approve" />
+                        </div>
+                        <div class="icon">
+                          <img src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="profile">
+                        <span class="name">Phill Dunphy</span>
+                        <span class="date">9/15/22 @ 2PM</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="actions requests">
+                        <div class="icon approve">
+                          <img src="assets/Approve.svg" alt="approve" />
+                        </div>
+                        <div class="icon">
+                          <img src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="profile">
+                        <span class="name">Eric Shaw</span>
+                        <span class="date">9/15/22 @ 2PM</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="actions requests">
+                        <div class="icon approve">
+                          <img src="assets/Approve.svg" alt="approve" />
+                        </div>
+                        <div class="icon">
+                          <img src="assets/x1.svg" alt="x1" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
